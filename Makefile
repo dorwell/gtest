@@ -7,7 +7,7 @@ G++ = g++
 G++_FLAGS = -c -Wall -I $(GOOGLE_TEST_INCLUDE)
 LD_FLAGS = -L /usr/local/lib -l $(GOOGLE_TEST_LIB) -l pthread
 
-OBJECTS = main.o string-compare.o
+OBJECTS = main.o string-compare.o func.o
 TARGET = string-compare
 
 all: $(TARGET)
